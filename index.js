@@ -1,5 +1,5 @@
 const { prompt } = require("inquirer");
-const connection = require("./db/connection");
+const connection = require("./config/connection");
 
 // Initialize the app
 init();
